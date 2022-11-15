@@ -3,3 +3,10 @@ C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net
 C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.AssemblyInfoInputs.cache
 C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.AssemblyInfo.cs
 C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.csproj.CoreCompileInputs.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\bin\Debug\net6.0\LibraryGenerationTestClass.deps.json
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\bin\Debug\net6.0\LibraryGenerationTestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\bin\Debug\net6.0\LibraryGenerationTestClass.pdb
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\refint\LibraryGenerationTestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.pdb
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\ref\LibraryGenerationTestClass.dll
