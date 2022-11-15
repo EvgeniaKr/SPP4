@@ -28,7 +28,34 @@ namespace LibraryGenerationTestClass
                     MaxDegreeOfParallelism = classgenerator.FilesReadCount,
                 }
                 );
-            return null;
+            var generateTestsByFile = new TransformManyBlock<string, Files>// получаем на вход 1 стороку на выходе преобразуем её в несколлько обьектов классов
+           (
+             async data => await GenerateTestClasses(data),
+             new ExecutionDataflowBlockOptions
+             {
+                 MaxDegreeOfParallelism = classgenerator.ClassesGenerateCount,
+             }
+             );
+            var writeFile = new ActionBlock<Files>//1 получаем на вход 1 стороку на выходе ничего не отдаём
+          (
+              async data => await WriteFileAsync(data),
+              new ExecutionDataflowBlockOptions
+              {
+                  MaxDegreeOfParallelism = classgenerator.FilesWriteCount,
+              }
+          );
+
+            readFiles.LinkTo(generateTestsByFile, new DataflowLinkOptions { PropagateCompletion = true });
+            generateTestsByFile.LinkTo(writeFile, new DataflowLinkOptions { PropagateCompletion = true });
+
+            foreach (var path in classgenerator.FilesTestClasssesPaths)
+            {
+                readFiles.Post(path);
+            }
+            
+            readFiles.Complete();
+
+            return writeFile.Completion;
         }
         private async Task<Files[]> GenerateTestClasses(string fileText)
         {
@@ -156,6 +183,13 @@ namespace LibraryGenerationTestClass
                 SyntaxFactory.ArgumentList(argumentList)));
 
             return statement;
+        }
+
+
+        private async Task WriteFileAsync(Files data)
+        {
+            var filePath = Path.Combine(classgenerator.Path, $"{data.Name}.cs");
+            await File.WriteAllTextAsync(filePath, data.Data);
         }
 
     }
