@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "oXX+H3TeGJnfa05QfY0CgaXtmI6DPoHGXHl2tUeE6w29srEE8sQAK3LUFcUdEs9Uup/mZ+2PlaCnJGpmptnaSQ==",
+  "dgSpecHash": "qsZahII7BbwnR83s2b9NdDo0t5HAfHkSJzbvliLoDBPtDQSD/Fi3pcX8iOBfCkfRpWWykDtN0o+mlYm+jvlXbw==",
   "success": true,
   "projectFilePath": "C:\\mywork\\SPPlabs\\SPP_4\\Tests Generator\\LibraryGenerationTestClass\\LibraryGenerationTestClass.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\microsoft.codeanalysis.common.4.3.1.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\microsoft.codeanalysis.csharp.4.3.1.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

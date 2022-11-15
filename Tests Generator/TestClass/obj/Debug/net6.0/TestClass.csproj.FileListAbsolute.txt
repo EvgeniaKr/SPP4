@@ -1,0 +1,12 @@
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\bin\Debug\net6.0\TestClass.deps.json
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\bin\Debug\net6.0\TestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\bin\Debug\net6.0\TestClass.pdb
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.csproj.AssemblyReference.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.AssemblyInfoInputs.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.AssemblyInfo.cs
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.csproj.CoreCompileInputs.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\refint\TestClass.dll
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\TestClass.pdb
+C:\mywork\SPPlabs\SPP_4\Tests Generator\TestClass\obj\Debug\net6.0\ref\TestClass.dll

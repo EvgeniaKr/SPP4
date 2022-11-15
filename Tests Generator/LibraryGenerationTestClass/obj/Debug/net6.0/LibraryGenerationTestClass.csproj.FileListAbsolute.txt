@@ -1,0 +1,5 @@
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.csproj.AssemblyReference.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.AssemblyInfoInputs.cache
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.AssemblyInfo.cs
+C:\mywork\SPPlabs\SPP_4\Tests Generator\LibraryGenerationTestClass\obj\Debug\net6.0\LibraryGenerationTestClass.csproj.CoreCompileInputs.cache
